@@ -11,7 +11,7 @@ Follow these steps to set up and run the project locally after cloning:
 
 ```bash
 # 1. Clone the repository
-git clone <your-repo-url>
+git clone <repo-url>
 
 # 2. Navigate to the project directory
 cd prime-logistics
