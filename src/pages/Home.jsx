@@ -36,6 +36,9 @@ import { FLEET_CATEGORIES, FLEET_STRENGTH } from '../data/fleet';
 import { INDUSTRIES } from '../data/industries';
 import { WHY_CHOOSE_US } from '../data/whyChooseUs';
 
+import heroLorryImg from '../assets/images/hero/hero-lorry.jpg';
+import aboutOperationsImg from '../assets/images/about/about-operations.jpg';
+
 export default function Home() {
   return (
     <>
@@ -120,7 +123,7 @@ export default function Home() {
                 {/* Main Hero Image Container */}
                 <div className="relative rounded-3xl overflow-hidden border-2 border-slate-700/80 shadow-2xl bg-brand-navy-900 group">
                   <img
-                    src="/images/hero/hero-lorry.jpg"
+                    src={heroLorryImg}
                     alt="Prime Logistics Heavy Commercial Road Transportation"
                     className="w-full h-[420px] sm:h-[480px] object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out brightness-95"
                   />
@@ -183,7 +186,7 @@ export default function Home() {
             <div className="lg:col-span-5 order-2 lg:order-1">
               <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-slate-200 group">
                 <img
-                  src="/images/about/about-operations.jpg"
+                  src={aboutOperationsImg}
                   alt="Prime Logistics Road Freight Operations"
                   className="w-full h-[400px] sm:h-[460px] object-cover object-center group-hover:scale-105 transition-transform duration-700 ease-out"
                 />

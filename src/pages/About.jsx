@@ -23,6 +23,7 @@ import CTASection from '../components/CTASection';
 import SeoHelmet from '../components/SeoHelmet';
 import { COMPANY_INFO } from '../data/companyInfo';
 import { FLEET_STRENGTH } from '../data/fleet';
+import aboutFleetImg from '../assets/images/about/about-fleet.jpg';
 
 export default function About() {
   const approachSteps = [
@@ -128,7 +129,7 @@ export default function About() {
             <div className="lg:col-span-6">
               <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-slate-200 group">
                 <img
-                  src="/images/about/about-fleet.jpg"
+                  src={aboutFleetImg}
                   alt="Prime Logistics Heavy Fleet in Motion"
                   className="w-full h-[420px] sm:h-[480px] object-cover object-center group-hover:scale-105 transition-transform duration-700"
                 />
